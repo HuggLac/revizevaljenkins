@@ -1,4 +1,4 @@
-valeur = int(input('entrez une valeur entière: '))
+valeur = 6
 if valeur > 5:
     print(f'la valeur {valeur} est supérieur à 5')
 else:
