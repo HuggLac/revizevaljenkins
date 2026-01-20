@@ -8,7 +8,7 @@ pipeline {
     stages {
         stage('Checkout') {
             steps {
-                git branch: 'main', url: 'https://github.com/HuggLac/reviz_jenkins.git'
+                git branch: 'main', url: 'https://github.com/HuggLac/revizevaljenkins.git'
             }
         }
         stage('Build') {
